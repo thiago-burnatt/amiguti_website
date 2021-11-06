@@ -24,15 +24,15 @@ body {
 }
 
 h1 {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Fredoka One', cursive;
     font-size: 7rem;
-    text-transform: uppercase;
+    
 }
 
 h2 {
+    font-family: 'Dancing Script', cursive;;
     font-size: 4rem;
     margin-bottom: 5rem;
-    text-transform: uppercase;
     line-height: 1.2;
 }
 
@@ -96,7 +96,7 @@ p {
 .intro-content {
     display: grid;
     position: relative;
-    grid-template-columns: 1fr 1.5fr;
+    grid-template-columns: 1.2fr 1.2fr;
     padding: 4rem var(--gap);
 
 }
