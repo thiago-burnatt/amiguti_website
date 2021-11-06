@@ -1,0 +1,117 @@
+:root {
+    --primary-color: #203980;
+    --grey-color: #E4E8F5;
+    --white-color: #FFFFFF;
+    --gap: 3rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 2rem;
+    color: var(--primary-color);
+    line-height: 1.5;
+}
+
+h1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 7rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 4rem;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+h3 {
+    font-size: 5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin-bottom: 3rem;
+}
+
+.section {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 10 var(--gap);
+}
+
+.view-port {
+    min-height: 100vh
+}
+
+.white-bar {
+    background-color: var(--white-color);
+    height: 6.5rem;
+
+}
+
+.menu-section {
+    background-color:var(--white-color);
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 0.1rem solid var(--grey-color);
+
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--gap);
+}
+
+.logo a img {
+   width: 100px;
+   max-height: 50px;
+}
+
+.menu-nav ul li {
+    display: inline;
+    padding: 0 var(--gap);
+}
+
+.intro-content {
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 1.5fr;
+    padding: 4rem var(--gap);
+
+}
+
+.image-bg {
+    background-image: url(/assets/img/intro-bg-image.svg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.intro-text-content, .intro-image-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: var(--gap);
+}
+
