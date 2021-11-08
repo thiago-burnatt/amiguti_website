@@ -30,14 +30,14 @@ h1 {
 }
 
 h2 {
-    font-family: 'Dancing Script', cursive;;
+    font-family: 'Dancing Script', cursive;
     font-size: 4rem;
     margin-bottom: 5rem;
     line-height: 1.2;
 }
 
 h3 {
-    font-size: 5rem;
+    font-size: 2rem;
 }
 
 a {
@@ -72,7 +72,7 @@ p {
     top: 0;
     left: 0;
     right: 0;
-    border-bottom: 0.1rem solid var(--grey-color);
+    border-bottom: 0.15rem solid var(--grey-color);
 
 }
 
@@ -113,5 +113,20 @@ p {
     flex-wrap: wrap;
     text-align: center;
     padding: var(--gap);
+}
+
+.button {
+    border: 0.5rem solid var(--white-color);
+    background: none;
+    color: var(--primary-color);
+    padding: 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all 300ms ease-in-out; 
+}
+
+.button:hover {
+    background: var(--white-color);
+    color: var(--primary-color);
 }
 
