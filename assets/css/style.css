@@ -26,18 +26,21 @@ body {
 h1 {
     font-family: 'Fredoka One', cursive;
     font-size: 7rem;
+    margin-bottom: 2rem;
     
 }
 
 h2 {
     font-family: 'Dancing Script', cursive;
     font-size: 4rem;
+  
     margin-bottom: 5rem;
     line-height: 1.2;
 }
 
 h3 {
     font-size: 2rem;
+    text-align: left;
 }
 
 a {
@@ -46,6 +49,7 @@ a {
 
 p {
     margin-bottom: 3rem;
+    text-align: justify;
 }
 
 .section {
@@ -61,8 +65,8 @@ p {
 .white-bar {
     background-color: var(--white-color);
     height: 6.5rem;
-
 }
+
 
 .menu-section {
     background-color:var(--white-color);
@@ -96,8 +100,8 @@ p {
 .intro-content {
     display: grid;
     position: relative;
-    grid-template-columns: 1.2fr 1.2fr;
-    padding: 4rem var(--gap);
+    grid-template-columns: 1.3fr 1.2fr;
+    padding: 3rem var(--gap);
 
 }
 
@@ -115,6 +119,11 @@ p {
     padding: var(--gap);
 }
 
+.intro-image-content img {
+    max-width: 40rem;
+    max-height: 40rem;
+}
+
 .button {
     border: 0.5rem solid var(--white-color);
     background: none;
@@ -128,5 +137,89 @@ p {
 .button:hover {
     background: var(--white-color);
     color: var(--primary-color);
+}
+
+.know-more-section {
+    display: flex;
+    justify-content: center;
+}
+
+.contact {
+    flex-direction: column;
+    align-items: center;
+    grid-column: span 2;
+}
+
+.contact-links {
+    display: flex;
+}
+
+.image {
+    display: flex;
+    width: 5rem;
+    height: 5rem;
+    margin: 3rem 2rem;
+}
+
+.know-more {
+    max-width: 70rem;
+    padding: 6rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.know-more h2 {
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 2rem;
+    color: var(--primary-color);
+    line-height: 1.5;
+}
+
+.know-more img {
+    max-width: 65%;
+    margin-bottom: 3rem;
+}
+
+.know-more iframe {
+    margin: var(--gap);
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    height: 8rem;
+    background-color: var(--grey-color);
+}
+
+.footer h1 {
+    text-align: center;
+    font-size: 3rem;
+    padding: 1.5rem;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.produts-header, h1, h2 {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.gallery-img {
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+
+.gallery-img img {
+    max-width: 100%;
+}
+
+.gallery-img p {
+    text-align: left;
 }
 
