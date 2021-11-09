@@ -2,6 +2,7 @@
     --primary-color: #203980;
     --grey-color: #E4E8F5;
     --white-color: #FFFFFF;
+    --orange-color: #e8630a;
     --gap: 3rem;
 }
 
@@ -64,38 +65,41 @@ p {
 
 .white-bar {
     background-color: var(--white-color);
-    height: 6rem;
 }
 
 
 .menu-section {
     background-color:var(--white-color);
     width: 100%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    right: 0;
     border-bottom: 0.15rem solid var(--grey-color);
-
 }
 
 .menu {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: var(--gap);
+    justify-content: center;
+    padding: 1rem;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
 }
 
 .logo a img {
-   width: 150px;
-   height: 50px;
-   margin-bottom: -1.3rem;
+   max-width: 12rem;
+   max-height: 13rem;
+   margin: 2rem;
 }
 
 .menu-nav ul li {
+    font-family: 'Fredoka One', cursive;
     display: inline;
     padding: 0 var(--gap);
+}
+
+.menu-nav ul li a {
+    color: var(--orange-color);
 }
 
 .intro-content {
@@ -200,11 +204,20 @@ p {
     margin-bottom: 0;
 }
 
-
 .products-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
+}
+
+.products-banner {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.products-banner img {
+    width: 120rem;
 }
 
 .produts-header, h1, h2 {
@@ -213,17 +226,33 @@ p {
 }
 
 .gallery-img {
+    display: flex;
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
-    
+    height: 100%;  
+    /* 
+    border: 0.1rem solid var(--grey-color);
+    border-collapse: collapse;
+    border-radius: 3rem;
+    padding: 1rem 2rem;
+    */
 }
 
 .gallery-img img {
     max-width: 100%;
+    width: 300px;   
+    height: 320px;
+    
+}
+
+
+.gallery-img img {
+    border-radius: 2rem;
 }
 
 .gallery-img p {
+    display: flex;
     text-align: center;
 }
 
