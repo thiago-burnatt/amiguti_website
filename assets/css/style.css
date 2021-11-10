@@ -20,26 +20,27 @@ html {
 body {
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
     font-size: 2rem;
-    color: var(--primary-color);
+    color: var(--orange-color);
     line-height: 1.5;
 }
 
 h1 {
     font-family: 'Fredoka One', cursive;
-    font-size: 7rem;
+    font-size: 8rem;
     margin-bottom: 2rem;
+    color: var(--orange-color);
     
 }
 
 h2 {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Fredoka One', cursive;
     font-size: 4rem;
-  
     margin-bottom: 5rem;
     line-height: 1.2;
 }
 
 h3 {
+    font-family: 'Fredoka One', cursive;
     font-size: 2rem;
     text-align: left;
 }
@@ -49,6 +50,9 @@ a {
 }
 
 p {
+    font-family: 'Fredoka One', cursive;
+    font-size: 2rem;
+    padding: 1rem;
     margin-bottom: 3rem;
     text-align: justify;
 }
@@ -57,6 +61,11 @@ p {
     max-width: 120rem;
     margin: 0 auto;
     padding: 10 var(--gap);
+}
+
+.section h2 {
+    
+    max-width: 80rem;
 }
 
 .view-port {
@@ -87,13 +96,12 @@ p {
 }
 
 .logo a img {
-   max-width: 12rem;
-   max-height: 13rem;
    margin: 2rem;
 }
 
 .menu-nav ul li {
     font-family: 'Fredoka One', cursive;
+    font-size: 2.5rem;
     display: inline;
     padding: 0 var(--gap);
 }
@@ -124,11 +132,16 @@ p {
     padding: var(--gap);
 }
 
+.intro-text-content h2 {
+    font-family: 'Dancing Script', cursive;
+}
+
 .intro-image-content img {
     max-width: 40rem;
     max-height: 40rem;
 }
 
+/*
 .button {
     border: 0.5rem solid var(--white-color);
     background: none;
@@ -139,10 +152,12 @@ p {
     transition: all 300ms ease-in-out; 
 }
 
+
 .button:hover {
     background: var(--white-color);
     color: var(--primary-color);
 }
+*/
 
 .know-more-section {
     display: flex;
@@ -174,9 +189,7 @@ p {
 }
 
 .know-more h2 {
-    font-family: 'Zen Kaku Gothic Antique', sans-serif;
     font-size: 2rem;
-    color: var(--primary-color);
     line-height: 1.5;
 }
 
@@ -188,7 +201,6 @@ p {
 .know-more iframe {
     margin: var(--gap);
 }
-
 
 .footer {
     display: flex;
@@ -218,6 +230,7 @@ p {
 
 .products-banner img {
     width: 120rem;
+    max-height: 50rem;
 }
 
 .produts-header, h1, h2 {
@@ -241,21 +254,20 @@ p {
 
 .gallery-img img {
     max-width: 100%;
-    width: 300px;   
-    height: 320px;
+    width: 280px;   
+    height: 300px;
     
 }
-
 
 .gallery-img img {
     border-radius: 2rem;
 }
 
 .gallery-img p {
-    display: flex;
     text-align: center;
 }
 
+/*
 .pagination {
     display: flex;
     align-items: center;
@@ -282,4 +294,12 @@ p {
     text-align: center;
     
 }
+*/
+
+.intro-product-texto {
+    display: flex;
+    justify-content: center;
+}
+
+
 
