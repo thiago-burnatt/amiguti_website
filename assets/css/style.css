@@ -3,7 +3,7 @@
     --grey-color: #E4E8F5;
     --white-color: #FFFFFF;
     --orange-color: #e8630a;
-    --gap: 3rem;
+    --gap: 2rem;
 }
 
 * {
@@ -53,7 +53,7 @@ p {
     font-family: 'Fredoka One', cursive;
     font-size: 2rem;
     padding: 1rem;
-    margin-bottom: 3rem;
+    margin-bottom: 0rem;
     text-align: justify;
 }
 
@@ -234,7 +234,7 @@ p {
 
 .produts-header, h1, h2 {
     text-align: center;
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 
 .gallery-img {
@@ -306,12 +306,14 @@ p {
      }
 
      h1 {
-         font-size: 4rem;
+         font-size: 4.8rem;
+         margin-top: 1rem;
      }
 
      .intro-image-content img {
-        max-width: 25rem;
-        max-height: 25rem;
+        
+        max-width: 28rem;
+        max-height: 28rem;
     }
 
     .menu {
@@ -323,7 +325,6 @@ p {
      }
 
     .intro-content, .grid {
-        /*Alterei aqui*/
     grid-template-columns: 1fr;
     }
 
