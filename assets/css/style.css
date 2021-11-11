@@ -76,7 +76,6 @@ p {
     background-color: var(--white-color);
 }
 
-
 .menu-section {
     background-color:var(--white-color);
     width: 100%;
@@ -115,7 +114,7 @@ p {
     position: relative;
     grid-template-columns: 1.3fr 1.2fr;
     padding: 3rem var(--gap);
-
+    min-height: 100vh;
 }
 
 .image-bg {
@@ -301,5 +300,34 @@ p {
     justify-content: center;
 }
 
+@media (max-width: 800px) {
+    .logo a img {
+        max-width: 20rem;
+     }
 
+     h1 {
+         font-size: 4rem;
+     }
 
+     .intro-image-content img {
+        max-width: 25rem;
+        max-height: 25rem;
+    }
+
+    .menu {
+        display: none;
+    }
+
+     .know-more {
+         max-width: 100%;
+     }
+
+    .intro-content, .grid {
+        /*Alterei aqui*/
+    grid-template-columns: 1fr;
+    }
+
+    .contact {
+        grid-column: span 1;
+    }
+}
