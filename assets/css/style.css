@@ -193,7 +193,7 @@ p {
 }
 
 .know-more img {
-    max-width: 80%;
+    max-width: 65%;
     margin-bottom: 3rem;
 }
 
@@ -310,9 +310,18 @@ p {
          margin-top: 1rem;
      }
 
-     h2 {
-         text-align: center;
+     .know-more {
+         padding: 2rem;
+     }
+
+     .know-more h2 {
          text-align: justify;
+     }
+
+     .know-more img {
+        max-width: 28rem;
+        max-height: 28rem;
+
      }
 
      .intro-image-content img {
