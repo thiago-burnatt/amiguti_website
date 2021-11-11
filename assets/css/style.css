@@ -267,34 +267,30 @@ p {
     text-align: center;
 }
 
-/*
-.pagination {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    list-style: none;
-    font-size: 3rem;
-    padding: 2rem;
-    margin-bottom: 3rem;
-
+.back-to-top {
+    background-image: url(/assets/img/up-arrow.png);
+    background-position: center;
+    cursor: pointer;
+    background-size: 5rem;
+    width: 5rem;
+    height: 5rem;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
 }
 
-.pagination li {
-    border: 0.1rem solid black;
-    border-collapse: collapse;
-    padding: 0.5rem;
-    font-size: 1.5rem;
-    font-weight: bolder;
-    height: 3rem;
-    width: 3rem;
-    text-align: center;
-}
+.whatsapp-contact {
+    background-image: url(/assets/img/whatsapp-icon-2.png);
+    background-position: center center;
+    background-size: 6rem;
+    width: 4rem;
+    height: 4rem;
+    position: fixed;
+    bottom: 8rem;
+    right: 1rem;
 
-.pagination-section h3 {
-    text-align: center;
-    
+
 }
-*/
 
 .intro-product-texto {
     display: flex;
@@ -334,9 +330,18 @@ p {
         max-height: 28rem;
     }
 
-    .menu {
-        display: none;
+    .menu-nav ul li {
+        padding: 1rem;
+        font-size: 60%;
     }
+
+    .logo a img {
+        margin-bottom: 0;
+    }
+
+    /* .menu {
+        display: none;         
+    } */
 
     .intro-content, .grid {
     grid-template-columns: 1fr;
