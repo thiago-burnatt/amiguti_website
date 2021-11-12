@@ -118,7 +118,7 @@ p {
 }
 
 .image-bg {
-    background-image: url(/assets/img/intro-bg-image.svg);
+    background-image: url(/assets/img/background/intro-bg-image.svg);
     background-size: cover;
     background-position: center center;
 }
@@ -140,24 +140,6 @@ p {
     max-height: 40rem;
 }
 
-/*
-.button {
-    border: 0.5rem solid var(--white-color);
-    background: none;
-    color: var(--primary-color);
-    padding: 1rem;
-    font-size: 2rem;
-    cursor: pointer;
-    transition: all 300ms ease-in-out; 
-}
-
-
-.button:hover {
-    background: var(--white-color);
-    color: var(--primary-color);
-}
-*/
-
 .know-more-section {
     display: flex;
     justify-content: center;
@@ -167,6 +149,7 @@ p {
     flex-direction: column;
     align-items: center;
     grid-column: span 2;
+    margin: 10rem;
 }
 
 .contact-links {
@@ -253,14 +236,21 @@ p {
 }
 
 .gallery-img img {
+
     max-width: 100%;
-    width: 310px;   
+    /* max-height: 100%; */
+    /* width: 310px; */ 
     height: 70%;
     
 }
 
 .gallery-img img {
     border-radius: 2rem;
+}
+
+.gallery-img p {
+    padding: 0;
+    margin-top: -3rem;
 }
 
 .gallery-img p {
@@ -280,7 +270,7 @@ p {
 }
 
 .whatsapp-contact {
-    background-image: url(/assets/img/whatsapp-icon-2.png);
+    background-image: url(/assets/img/contact/whatsapp-icon-2.png);
     background-position: center center;
     background-size: 6rem;
     width: 4rem;
@@ -295,7 +285,14 @@ p {
 .intro-product-texto {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
+
+
+
+
+
+
 
 @media (max-width: 700px) {
     .logo a img {
@@ -356,8 +353,10 @@ p {
     }
 
     .gallery-img img {
-        max-width: 100%;
+        width: 100%;
         max-height: 70%;
+
+        /* max-height: 70%; */
     }
 
     .banner-bg img {
@@ -366,5 +365,7 @@ p {
 
     .gallery-img p {
         width: 100%;
+        padding: 0;
+        margin-top: -3rem;
     }
 }
