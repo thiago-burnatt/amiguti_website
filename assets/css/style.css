@@ -258,28 +258,26 @@ p {
 }
 
 .back-to-top {
-    background-image: url(/assets/img/up-arrow.png);
-    background-position: center;
-    cursor: pointer;
-    background-size: 5rem;
-    width: 5rem;
-    height: 5rem;
+    display: flex;
+    align-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: rgb(188, 240, 188, 0.9);
+    font-size: 1.2rem;
     position: fixed;
     bottom: 1rem;
-    right: 1rem;
+    left: 1rem;
 }
 
 .whatsapp-contact {
     background-image: url(/assets/img/contact/whatsapp-icon-2.png);
     background-position: center center;
-    background-size: 6rem;
-    width: 4rem;
-    height: 4rem;
+    background-size: 8rem;
+    width: 5rem;
+    height: 5rem;
     position: fixed;
-    bottom: 8rem;
+    bottom: 1rem;
     right: 1rem;
-
-
 }
 
 .intro-product-texto {
