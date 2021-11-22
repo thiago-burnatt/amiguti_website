@@ -258,10 +258,6 @@ p {
 }
 
 .back-to-top {
-    display: flex;
-    align-content: center;
-    text-align: center;
-    flex-wrap: wrap;
     background-color: rgb(188, 240, 188, 0.9);
     font-size: 1.2rem;
     position: fixed;
