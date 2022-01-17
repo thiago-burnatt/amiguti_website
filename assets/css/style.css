@@ -58,6 +58,7 @@ p {
     text-align: justify;
 }
 
+
 .section {
     max-width: 120rem;
     margin: 0 auto;
@@ -283,6 +284,34 @@ p {
     flex-wrap: wrap;
 }
 
+.container {
+    display: flex;
+    background-color: rgb(31, 84, 97);
+    max-width: 640px;
+    max-height: 800px;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+form {
+    display: block;
+    width: 100%;
+}
+
+.form-item {
+    padding: 10px;
+}
+
+form input, form label, form button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 2px;
+    font-size: 16px;
+  }
+
+form label {
+    color: white;
+  }
 
 
 @media (max-width: 700px) {
